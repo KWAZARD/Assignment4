@@ -140,10 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Assignment4.cpp" />
+    <ClCompile Include="Cipher.cpp" />
+    <ClCompile Include="ComandLineInterface.cpp" />
     <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="TextEditor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CheckLine.h" />
+    <ClInclude Include="Cipher.h" />
+    <ClInclude Include="ComandLineInterface.h" />
+    <ClInclude Include="ContactInfo.h" />
     <ClInclude Include="Functions.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="TextEditor.h" />
+    <ClInclude Include="TextLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
