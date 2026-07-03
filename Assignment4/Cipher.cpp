@@ -72,6 +72,7 @@ std::string Cipher::Encrypt(const std::string& text)
 		}
 		case 2:
 		{
+			std::cin.ignore();
 			std::string key;
 			std::cout << "Enter key:\n>";
 			std::getline(std::cin, key);
@@ -125,6 +126,8 @@ std::string Cipher::Decrypt(const std::string& text)
 	}
 	case 2:
 	{
+
+		std::cin.ignore();
 		std::string key;
 		std::cout << "Enter key:\n>";
 		std::getline(std::cin, key);
